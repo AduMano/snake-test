@@ -11,7 +11,7 @@
 window.onload = function () {
   // GRID
   const GAMECOMPONENT = document.querySelector("#game");
-  const GRIDSIZE = 50;
+  const GRIDSIZE = 20;
   let can_move = true;
 
   function RenderGame() {
