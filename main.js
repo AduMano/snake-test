@@ -11,7 +11,7 @@
 window.onload = function () {
   // GRID
   const GAMECOMPONENT = document.querySelector("#game");
-  const GRIDSIZE = 20;
+  const GRIDSIZE = 50;
   let can_move = true;
 
   function RenderGame() {
@@ -40,7 +40,7 @@ window.onload = function () {
               "<div style='width: 20px; height: 20px; background-color: red; outline: 1px solid black;'></div>";
           } else {
             grid_component +=
-              "<div style='width: 20px; height: 20px; outline: 1px solid green;'></div>";
+              "<div style='width: 20px; height: 20px; outline: 1px solid yellow; opacity: 0.4;'></div>";
           }
         }
       }
